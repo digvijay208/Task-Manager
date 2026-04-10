@@ -60,8 +60,4 @@ npm run dev
 
 Frontend runs on `http://localhost:5173` by default.
 
-## Assumptions and Trade-offs
 
-- Used in-memory storage to keep scope aligned with assignment time expectations.
-- Refetch after each mutation keeps API/client logic simple and reliable for this size of app.
-- Added optional bonus features (filtering and edit task title) after core requirements.
